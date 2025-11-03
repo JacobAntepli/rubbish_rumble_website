@@ -1,26 +1,66 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import MainPage from "./Components/MainPage";
+import NavBar from "./Components/NavBar";
+import {
+  createBrowserRouter, Outlet, RouterProvider,
+} from "react-router-dom";
+import BlogPostComponent from "./Components/BlogPostComponent";
+import Week1Page from "./Components/Week1Page";
 function App() {
+  const router = createBrowserRouter([
+    {
+      children: [
+        {
+          path: "/rubbish_rumble_website/",
+          element: (
+              <>
+                  <Layout/>
+                  <MainPage/>
+
+
+
+
+              </>
+          ),
+
+        },
+          {
+              path: "/rubbish_rumble_website/Week1",
+              element: (
+                  <>
+                      <Layout/>
+                      <Week1Page/>
+
+
+
+
+                  </>
+              ),
+
+          },
+
+
+
+
+      ],
+    },
+  ]);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          YOOOOOOOOOOOOOO
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <RouterProvider router={router}/>
   );
 }
 
+function Layout() {
+  return(
+      <>
+        <NavBar/>
+        <Outlet/>
+      </>
+  );
+
+}
 export default App;
