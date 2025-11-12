@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rubbish_rumble_website/static/css/main.ca25ab25.css",
-    "main.js": "/rubbish_rumble_website/static/js/main.fcc69873.js",
+    "main.css": "/rubbish_rumble_website/static/css/main.90a9ea43.css",
+    "main.js": "/rubbish_rumble_website/static/js/main.cd7c8bc5.js",
     "static/js/453.261a53c8.chunk.js": "/rubbish_rumble_website/static/js/453.261a53c8.chunk.js",
     "index.html": "/rubbish_rumble_website/index.html",
-    "main.ca25ab25.css.map": "/rubbish_rumble_website/static/css/main.ca25ab25.css.map",
-    "main.fcc69873.js.map": "/rubbish_rumble_website/static/js/main.fcc69873.js.map",
+    "main.90a9ea43.css.map": "/rubbish_rumble_website/static/css/main.90a9ea43.css.map",
+    "main.cd7c8bc5.js.map": "/rubbish_rumble_website/static/js/main.cd7c8bc5.js.map",
     "453.261a53c8.chunk.js.map": "/rubbish_rumble_website/static/js/453.261a53c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca25ab25.css",
-    "static/js/main.fcc69873.js"
+    "static/css/main.90a9ea43.css",
+    "static/js/main.cd7c8bc5.js"
   ]
 }
