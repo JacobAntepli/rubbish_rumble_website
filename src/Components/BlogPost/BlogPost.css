@@ -40,6 +40,8 @@
 .blogImages{
     margin-top: 90px;
 
+}
 
-
+.blogImageContainer{
+    height: fit-content;
 }

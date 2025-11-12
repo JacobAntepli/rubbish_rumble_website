@@ -24,7 +24,6 @@ export default function NavBar(){
                 </Button>
 
                 <Button  onClick={handleClick} id={"/rubbish_rumble_website/week1"} >
-
                     <p>
                         Week1
                     </p>

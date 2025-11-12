@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MainPage from "./Components/MainPage";
-import NavBar from "./Components/NavBar";
+import MainPage from "./Components/MainPage/MainPage";
+import NavBar from "./Components/NavBar/NavBar";
 import {
   createBrowserRouter, Outlet, RouterProvider,
 } from "react-router-dom";
-import BlogPostComponent from "./Components/BlogPostComponent";
+import BlogPostComponent from "./Components/BlogPost/BlogPostComponent";
 import Week1Page from "./Components/Week1Page";
 function App() {
   const router = createBrowserRouter([
@@ -18,10 +18,6 @@ function App() {
               <>
                   <Layout/>
                   <MainPage/>
-
-
-
-
               </>
           ),
 
